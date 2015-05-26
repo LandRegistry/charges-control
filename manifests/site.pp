@@ -1,11 +1,8 @@
 node default {
-  include ::standard_env
-
-  service { 'firewalld':
-    ensure => 'stopped',
-  }
+  include ::profiles::default
 }
 
-node 'sign' inherits default {
+node 'sign' {
+  include ::profiles::default
   include ::profiles::borrower_frontend
 }
