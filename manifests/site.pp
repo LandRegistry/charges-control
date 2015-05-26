@@ -6,6 +6,6 @@ node default {
   }
 }
 
-node 'sign' {
+node 'sign' inherits default {
   include ::profiles::borrower_frontend
 }
