@@ -3,6 +3,5 @@ node default {
 }
 
 node 'sign' {
-  include ::profiles::default
-  include ::profiles::borrower_frontend
+  include ::profiles::sign
 }
