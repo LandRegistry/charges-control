@@ -3,7 +3,7 @@
   - yaml
 
 :yaml:
-  :datadir: /var/webapp/hiera
+  :datadir: %{::workspace}/hiera
 
 :hierarchy:
   - hosts/%{::fqdn}
