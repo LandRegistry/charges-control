@@ -1,0 +1,10 @@
+---
+:backends:
+  - yaml
+
+:yaml:
+  :datadir: /var/webapp/hiera
+
+:hierarchy:
+  - hosts/%{::fqdn}
+  - common
