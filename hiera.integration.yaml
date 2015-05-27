@@ -3,7 +3,7 @@
   - yaml
 
 :yaml:
-  :datadir: %{::workspace}/hiera
+  :datadir: /%{::workspace}/hiera
 
 :hierarchy:
   - hosts/%{::fqdn}
