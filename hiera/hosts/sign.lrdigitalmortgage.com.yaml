@@ -1,3 +1,4 @@
 ---
 borrower_frontend::owner: 'webapp'
 borrower_frontend::group: 'webapp'
+borrower_frontend::deed_api_address: 'http://deedapi.lrdigitalmortgage-int.com:20100'
