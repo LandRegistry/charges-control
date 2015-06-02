@@ -2,7 +2,8 @@
 # vi: set ft=ruby :
 
 nodes = [
-  { :name => 'sign.dev.service.gov.uk', :ip => '10.10.11.10' }
+  { :name => 'sign.dev.service.gov.uk', :ip => '10.10.11.10' },
+  { :name => 'deed.dev.service.gov.uk', :ip => '10.10.11.11' }
 ]
 
 Vagrant.configure(2) do |config|
