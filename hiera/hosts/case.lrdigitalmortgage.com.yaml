@@ -1,3 +1,4 @@
 ---
 conveyancer_frontend::owner: 'webapp'
 conveyancer_frontend::group: 'webapp'
+conveyancer_frontend::domain: 'case.lrdigitalmortgage.com'
