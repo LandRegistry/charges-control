@@ -3,6 +3,7 @@
 
 nodes = [
   { :name => 'sign.dev.service.gov.uk', :ip => '10.10.11.10' },
+  { :name => 'case.dev.service.gov.uk', :ip => '10.10.11.12' },
   { :name => 'deed.dev.service.gov.uk', :ip => '10.10.11.11' }
 ]
 

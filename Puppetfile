@@ -15,3 +15,7 @@ mod 'charges/borrower_frontend',
 mod 'LandRegistry/standard_env',
   :git => 'git://github.com/LandRegistry/standard-env',
   :ref => 'master'
+
+mod 'charges/conveyancer_frontend',
+  :git => 'git://github.com/LandRegistry/charges-conveyancer-frontend',
+  :path => 'puppet/conveyancer_frontend'
