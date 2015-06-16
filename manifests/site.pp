@@ -9,3 +9,7 @@ node 'sign', 'ip-10-85-1-204' {
 node 'deedapi' {
   include ::profiles::deedapi
 }
+
+node 'case' {
+  include ::profiles::case
+}
