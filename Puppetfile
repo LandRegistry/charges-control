@@ -19,3 +19,7 @@ mod 'LandRegistry/standard_env',
 mod 'charges/conveyancer_frontend',
   :git => 'git://github.com/LandRegistry/charges-conveyancer-frontend',
   :path => 'puppet/conveyancer_frontend'
+
+mod 'charges/scribe',
+  :git => 'git://github.com/LandRegistry/charges-scribe',
+  :path => 'puppet/scribe'
