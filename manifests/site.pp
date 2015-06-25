@@ -13,3 +13,7 @@ node 'deedapi' {
 node 'case' {
   include ::profiles::case
 }
+
+node 'scribeapi' {
+  include ::profiles::scribeapi
+}
