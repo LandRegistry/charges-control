@@ -14,6 +14,6 @@ node 'case' {
   include ::profiles::case
 }
 
-node 'scribe' {
-  include ::profiles::scribe
+node 'scribeapi' {
+  include ::profiles::scribeapi
 }
