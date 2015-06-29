@@ -23,3 +23,7 @@ mod 'charges/conveyancer_frontend',
 mod 'charges/scribe',
   :git => 'git://github.com/LandRegistry/charges-scribe',
   :path => 'puppet/scribe'
+
+mod 'charges/case_api',
+  :git => 'git://github.com/LandRegistry/charges-case-api',
+  :path => 'puppet/case_api'
