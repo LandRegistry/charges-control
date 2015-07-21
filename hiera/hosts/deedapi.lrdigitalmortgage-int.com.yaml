@@ -1,3 +1,4 @@
 ---
 deed_api::owner: 'webapp'
 deed_api::group: 'webapp'
+deed_api::domain: 'deedapi.lrdigitalmortgage-int.com'

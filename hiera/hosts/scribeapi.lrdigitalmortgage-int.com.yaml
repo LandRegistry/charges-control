@@ -1,3 +1,4 @@
 ---
 scribe::owner: 'webapp'
 scribe::group: 'webapp'
+scribe::domain: 'scribeapi.lrdigitalmortgage-int.com'
