@@ -2,3 +2,4 @@
 scribe::owner: 'webapp'
 scribe::group: 'webapp'
 scribe::domain: 'scribeapi.lrdigitalmortgage-int.com'
+scribe::deed_api_address: 'http://deedapi.lrdigitalmortgage-int.com:20100'
