@@ -6,6 +6,7 @@ nodes = [
   { :name => 'case.dev.service.gov.uk', :ip => '10.10.11.12' },
   { :name => 'deed.dev.service.gov.uk', :ip => '10.10.11.11' },
   { :name => 'scribeapi.dev.service.gov.uk', :ip => '10.10.11.13' },
+  { :name => 'verifudge.dev.service.gov.uk', :ip => '10.10.11.14' },
 ]
 
 Vagrant.configure(2) do |config|
