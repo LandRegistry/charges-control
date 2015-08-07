@@ -22,3 +22,7 @@ mod 'charges/scribe',
 mod 'charges/case_api',
     git: 'git://github.com/LandRegistry/charges-case-api',
     path: 'puppet/case_api'
+
+mod 'charges/verifudge',
+    git: 'git://github.com/LandRegistry/charges-verifudge',
+    path: 'puppet/verifudge'

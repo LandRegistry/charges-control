@@ -21,3 +21,7 @@ node 'scribeapi' {
 node 'caseapi' {
   include ::profiles::caseapi
 }
+
+node 'verifudge' {
+  include ::profiles::verifudge
+}
