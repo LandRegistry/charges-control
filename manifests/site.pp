@@ -22,8 +22,6 @@ node 'caseapi' {
   include ::profiles::caseapi
 }
 
-node 'verifudge.dev.service.gov.uk',
-    'verifudge.lrdigitalmortgage.com',
-    'verifudge.lrdigitalmortgage-int.com' {
+node 'verifudge' {
   include ::profiles::verifudge
 }
