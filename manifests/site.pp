@@ -26,6 +26,6 @@ node 'verifudge' {
   include ::profiles::verifudge
 }
 
-node 'matching_service' {
+node 'matching' {
   include ::profiles::matching_service
 }

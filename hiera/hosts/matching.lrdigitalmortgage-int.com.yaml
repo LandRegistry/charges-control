@@ -1,4 +1,4 @@
 ---
-case_api::owner: 'webapp'
-case_api::group: 'webapp'
-case_api::domain: 'caseapi.lrdigitalmortgage-int.com'
+matching_service::owner: 'webapp'
+matching_service::group: 'webapp'
+matching_service::domain: 'matching.lrdigitalmortgage-int.com'
