@@ -26,3 +26,7 @@ mod 'charges/case_api',
 mod 'charges/verifudge',
     git: 'git://github.com/LandRegistry/charges-verifudge',
     path: 'puppet/verifudge'
+
+mod 'charges/matching_service',
+    git: 'git://github.com/LandRegistry/charges-matching-service',
+    path: 'puppet/matching_service'
