@@ -25,3 +25,7 @@ node 'caseapi' {
 node 'verifudge' {
   include ::profiles::verifudge
 }
+
+node 'matching_service' {
+  include ::profiles::matching_service
+}
