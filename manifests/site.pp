@@ -22,7 +22,7 @@ node 'caseapi' {
   include ::profiles::caseapi
 }
 
-node 'verifudge' {
+node 'verifudge', 'verifudge.lrdigitalmortgage-int.com' {
   include ::profiles::verifudge
 }
 
