@@ -29,6 +29,7 @@ the Infrastructure code necessary to provision our entire infrastructure.
     - [The `manifests/site.pp` file](#the-manifestssitepp-file)
     - [The `site` folder](#the-site-folder)
     - [Hiera datafiles](#hiera-datafiles)
+    - [The `bin/jenkins.sh` script](#the-binjenkinssh-script)
 
 ## Security Considerations
 
@@ -174,4 +175,15 @@ correct datafile is chosen based on the Fully Qualified Domain Name. This FQDN
 should be identical to the URL of the box, whether that is through external public
 DNS or internal DNS.
 
+### The `bin/jenkins.sh` script
 
+This script, located in [`bin/jenkins.sh`](https://github.com/LandRegistry/charges-control/blob/master/bin/jenkins.sh),
+is used by jenkins to run puppet on each box it should deploy on to. It requires
+only one variable, `$WORKSPACE`, which is the location jenkins has checked out
+this repo to on the box.
+
+This script will wire together the different folders needed, install the modules
+needed, and then run `puppet apply`. Since the configuration of a box is based on
+it's FQDN we don't need any change from box to box. Puppet will find the correct
+[node](#the-manifestssitepp-file) and [hiera](#hiera-datafiles) file and perform
+the installation.
