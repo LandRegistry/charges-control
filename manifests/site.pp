@@ -30,6 +30,6 @@ node 'matching' {
   include ::profiles::matching_service
 }
 
-node 'catalogue' {
+node 'catalogue', 'catalogue.lrdigitalmortgage-int.com' {
   include ::profiles::catalogue
 }
