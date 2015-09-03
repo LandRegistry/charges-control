@@ -1,4 +1,4 @@
 ---
-verifudge::owner: 'webapp'
-verifudge::group: 'webapp'
-verifudge::domain: 'catalogue.lrdigitalmortgage-int.com'
+catalogue::owner: 'webapp'
+catalogue::group: 'webapp'
+catalogue::domain: 'catalogue.lrdigitalmortgage-int.com'
