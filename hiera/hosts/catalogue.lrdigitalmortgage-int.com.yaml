@@ -1,0 +1,4 @@
+---
+catalogue::owner: 'webapp'
+catalogue::group: 'webapp'
+catalogue::domain: 'catalogue.lrdigitalmortgage-int.com'

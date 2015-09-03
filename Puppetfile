@@ -30,3 +30,7 @@ mod 'charges/verifudge',
 mod 'charges/matching_service',
     git: 'git://github.com/LandRegistry/charges-matching-service',
     path: 'puppet/matching_service'
+
+mod 'charges/catalogue',
+        git: 'git://github.com/LandRegistry/charges-catalogue',
+        path: 'puppet/catalogue'
