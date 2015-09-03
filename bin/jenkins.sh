@@ -1,3 +1,5 @@
+#!/usr/bin/env bash -l
+
 sudo /usr/local/bin/librarian-puppet update
 export exitcode=$?
 if [ $exitcode -eq 4 -o $exitcode -eq 6 ] 
