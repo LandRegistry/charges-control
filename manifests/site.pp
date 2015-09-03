@@ -29,3 +29,7 @@ node 'verifudge', 'verifudge.lrdigitalmortgage-int.com' {
 node 'matching' {
   include ::profiles::matching_service
 }
+
+node 'catalogue' {
+  include ::profiles::catalogue
+}
