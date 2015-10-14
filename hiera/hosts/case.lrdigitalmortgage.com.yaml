@@ -2,5 +2,5 @@
 conveyancer_frontend::owner: 'webapp'
 conveyancer_frontend::group: 'webapp'
 conveyancer_frontend::domain: 'case.lrdigitalmortgage.com'
-conveyancer_frontend::case_api_base_host: 'http://caseapi.lrdigitalmortgage-int.com:20100'
-conveyancer_frontend::deed_api_base_host: 'http://deedapi.lrdigitalmortgage-int.com:20100'
+conveyancer_frontend::case_api_base_host: 'http://caseapi.lrdigitalmortgage-int.com:80'
+conveyancer_frontend::deed_api_base_host: 'http://deedapi.lrdigitalmortgage-int.com:80'

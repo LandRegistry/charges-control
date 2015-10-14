@@ -2,5 +2,5 @@
 borrower_frontend::owner: 'webapp'
 borrower_frontend::group: 'webapp'
 borrower_frontend::domain: 'sign.lrdigitalmortgage.com'
-borrower_frontend::deed_api_address: 'http://deedapi.lrdigitalmortgage-int.com:20100'
-borrower_frontend::scribe_api_address: 'http://scribeapi.lrdigitalmortgage-int.com:20100'
+borrower_frontend::deed_api_address: 'http://deedapi.lrdigitalmortgage-int.com:80'
+borrower_frontend::scribe_api_address: 'http://scribeapi.lrdigitalmortgage-int.com:80'

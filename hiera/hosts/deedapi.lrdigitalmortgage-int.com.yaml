@@ -2,4 +2,4 @@
 deed_api::owner: 'webapp'
 deed_api::group: 'webapp'
 deed_api::domain: 'deedapi.lrdigitalmortgage-int.com'
-deed_api::case_api_address: 'http://caseapi.lrdigitalmortgage-int.com:20100'
+deed_api::case_api_address: 'http://caseapi.lrdigitalmortgage-int.com:80'
