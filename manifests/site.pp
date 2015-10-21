@@ -2,7 +2,7 @@ node default {
   include ::profiles::default
 }
 
-node 'sign', 'ip-10-85-1-204' {
+node 'sign', 'ip-192-168-248-71' {
   include ::profiles::sign
 }
 
