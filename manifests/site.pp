@@ -2,7 +2,7 @@ node default {
   include ::profiles::default
 }
 
-node 'sign', 'sign.lrdigitalmortgage.com' {
+node 'sign', 'ip-192-168-248-71' {
   include ::profiles::sign
 }
 
