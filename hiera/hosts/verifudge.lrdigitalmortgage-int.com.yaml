@@ -1,4 +1,0 @@
----
-verifudge::owner: 'webapp'
-verifudge::group: 'webapp'
-verifudge::domain: 'verifudge.lrdigitalmortgage.com'
