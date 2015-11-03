@@ -1,4 +1,0 @@
----
-matching_service::owner: 'webapp'
-matching_service::group: 'webapp'
-matching_service::domain: 'matching.lrdigitalmortgage-int.com'
